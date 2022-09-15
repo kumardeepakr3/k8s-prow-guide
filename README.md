@@ -12,7 +12,7 @@ enforcement, chat-ops via `/foo` style commands, and automatic PR merging.
 * **Hook**
   * This is the heart of Prow.
   * Responds to github events and dispatches them to respective plugins.
-  * Hooks plugins are used to trigger jobs , implement 'slash' commands, post ot Slack and many more.
+  * Hooks plugins are used to trigger jobs , implement 'slash' commands, post to Slack and many more.
   * Plugins provide a great amount of extensibility.
   * Support for external plugins.
 
